@@ -1,6 +1,6 @@
 # Next.js + Supabase Multi-Tenant SaaS MVP Starter
 
-[![CI](https://img.shields.io/badge/CI-Node_Test-10b981?style=flat-square)](.github/workflows/ci.yml)
+[![SaaS Starter CI](https://github.com/agenciaiaonline-wq/nextjs-supabase-saas-mvp-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/agenciaiaonline-wq/nextjs-supabase-saas-mvp-starter/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js-15_App_Router-black?style=flat-square&logo=next.js)](package.json)
 [![Supabase](https://img.shields.io/badge/Supabase-SSR_%2B_RLS-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](sql/multi_tenant_rls_schema.sql)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
