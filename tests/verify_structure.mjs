@@ -15,12 +15,16 @@ test("package.json and tsconfig.json parse cleanly", () => {
 test("required SaaS MVP files exist and enforce RLS", () => {
   const required = [
     ".env.example",
+    "SECURITY.md",
     "next.config.ts",
     "sql/multi_tenant_rls_schema.sql",
     "supabase/migrations/0001_multi_tenant_rls.sql",
+    "supabase/seed.example.sql",
     "src/app/page.tsx",
+    "src/app/dashboard/page.tsx",
     "src/app/api/health/route.ts",
     "src/app/api/webhooks/stripe/route.ts",
+    "src/components/BillingStatusCard.tsx",
     "src/lib/supabase/server.ts",
     "src/lib/supabase/client.ts",
     "src/middleware/rbac.example.ts"
